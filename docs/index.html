@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Fly Ready</title>
+<meta name="description" content="Fly Ready privacy policy: a local-first Android app for low-cost airline travel preparation that does not collect, transmit, or sell personal data.">
+<meta name="robots" content="index, follow">
+<style>
+  :root {
+    --color-primary: #173A56;
+    --color-primary-container: #D6E8F5;
+    --color-on-primary-container: #102C42;
+    --color-secondary: #006B68;
+    --color-secondary-container: #9CF2ED;
+    --color-background: #F4F7F9;
+    --color-surface: #FFFFFF;
+    --color-on-surface: #182126;
+    --color-on-surface-variant: #414C52;
+    --color-outline: #DDE4E8;
+    --radius: 14px;
+    --max-width: 760px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    background: var(--color-background);
+    color: var(--color-on-surface);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a {
+    color: var(--color-secondary);
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus {
+    text-decoration: underline;
+  }
+
+  header.hero {
+    background: var(--color-primary);
+    color: #FFFFFF;
+    padding: 48px 20px 40px;
+  }
+
+  .hero-inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+  }
+
+  .app-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.92);
+    margin-bottom: 18px;
+  }
+
+  .app-badge .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--color-secondary-container);
+    display: inline-block;
+  }
+
+  h1 {
+    margin: 0 0 10px;
+    font-size: clamp(28px, 5vw, 36px);
+    line-height: 1.2;
+  }
+
+  .hero-meta {
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 14px;
+    margin: 0;
+  }
+
+  main {
+    max-width: var(--max-width);
+    margin: -24px auto 0;
+    padding: 0 20px 64px;
+  }
+
+  .callout {
+    background: var(--color-surface);
+    border: 1px solid var(--color-outline);
+    border-radius: var(--radius);
+    padding: 22px 24px;
+    margin-bottom: 32px;
+    box-shadow: 0 6px 20px rgba(23, 58, 86, 0.08);
+  }
+
+  .callout h2 {
+    margin-top: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-secondary);
+  }
+
+  .callout ul {
+    margin: 12px 0 0;
+    padding-left: 20px;
+  }
+
+  .callout li {
+    margin-bottom: 6px;
+  }
+
+  nav.toc {
+    background: var(--color-surface);
+    border: 1px solid var(--color-outline);
+    border-radius: var(--radius);
+    padding: 20px 24px;
+    margin-bottom: 40px;
+  }
+
+  nav.toc h2 {
+    margin-top: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-on-surface-variant);
+  }
+
+  nav.toc ol {
+    margin: 12px 0 0;
+    padding-left: 20px;
+    columns: 1;
+  }
+
+  nav.toc li {
+    margin-bottom: 6px;
+    font-size: 15px;
+  }
+
+  section {
+    margin-bottom: 40px;
+  }
+
+  section h2 {
+    font-size: 21px;
+    color: var(--color-primary);
+    border-bottom: 2px solid var(--color-primary-container);
+    padding-bottom: 8px;
+    margin-bottom: 14px;
+    scroll-margin-top: 20px;
+  }
+
+  section p {
+    margin: 0 0 14px;
+  }
+
+  section ul {
+    margin: 0 0 14px;
+    padding-left: 22px;
+  }
+
+  section li {
+    margin-bottom: 8px;
+  }
+
+  .card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-outline);
+    border-radius: var(--radius);
+    padding: 20px 24px;
+  }
+
+  .back-to-top {
+    display: inline-block;
+    margin-top: 4px;
+    font-size: 13px;
+    color: var(--color-on-surface-variant);
+  }
+
+  footer {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 20px 64px;
+    color: var(--color-on-surface-variant);
+    font-size: 14px;
+  }
+
+  footer .card {
+    text-align: left;
+  }
+
+  footer p {
+    margin: 0 0 6px;
+  }
+
+  .contact-email {
+    font-weight: 600;
+    color: var(--color-primary);
+  }
+
+  @media (min-width: 600px) {
+    nav.toc ol {
+      columns: 2;
+      column-gap: 32px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <span class="app-badge"><span class="dot"></span>Fly Ready</span>
+    <h1 id="top">Privacy Policy</h1>
+    <p class="hero-meta">Effective date: 16 August 2026 &middot; Last updated: 16 August 2026</p>
+  </div>
+</header>
+
+<main>
+
+  <div class="callout">
+    <h2>In short</h2>
+    <ul>
+      <li>Fly Ready does not require an account and has no backend server.</li>
+      <li>Your trips, reminders, checklist progress, and imported documents stay on your device.</li>
+      <li>Fly Ready does not use advertising SDKs, analytics SDKs, or the advertising ID.</li>
+      <li>Fly Ready never collects your airline login credentials.</li>
+      <li>You can delete all local app data at any time from Settings.</li>
+    </ul>
+  </div>
+
+  <nav class="toc" aria-label="Table of contents">
+    <h2>On this page</h2>
+    <ol>
+      <li><a href="#developer">Developer</a></li>
+      <li><a href="#summary">Summary</a></li>
+      <li><a href="#information-you-provide">Information you provide</a></li>
+      <li><a href="#permissions">Permissions Fly Ready uses</a></li>
+      <li><a href="#storage-and-deletion">Data storage, backup, and deletion</a></li>
+      <li><a href="#third-party">Third-party apps and websites</a></li>
+      <li><a href="#children">Children's privacy</a></li>
+      <li><a href="#your-rights">Your rights and choices</a></li>
+      <li><a href="#security">Security</a></li>
+      <li><a href="#changes">Changes to this policy</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ol>
+  </nav>
+
+  <section id="developer">
+    <h2>Developer</h2>
+    <p>
+      Yurii Bohdan<br>
+      Contact: <span class="contact-email">yuriy.etherlord+zenvelyra@gmail.com</span>
+    </p>
+  </section>
+
+  <section id="summary">
+    <h2>Summary</h2>
+    <p>
+      Fly Ready is a local-first Android app that helps travelers manage flight details,
+      check-in reminders, boarding pass files, and pre-flight checklists for low-cost airlines.
+    </p>
+    <p>
+      Fly Ready does not require an account, does not use a backend server, and does not
+      collect, transmit, or sell any personal data to the developer or to any third party.
+      Fly Ready does not use advertising SDKs or analytics SDKs, and does not use or access
+      the Android advertising ID.
+    </p>
+  </section>
+
+  <section id="information-you-provide">
+    <h2>Information you provide</h2>
+    <p>
+      Everything you enter into Fly Ready is stored <strong>only on your device</strong>,
+      inside the app's private storage. This includes:
+    </p>
+    <ul>
+      <li>Flight details you enter manually (airline, route, departure date/time, time zone, flight number)</li>
+      <li>Booking references you choose to enter</li>
+      <li>Whether you purchased a seat for a flight</li>
+      <li>Reminder settings and preferences you configure</li>
+      <li>Checklist progress for each trip</li>
+      <li>Boarding passes or travel documents (PDF, JPG, PNG, or WebP files) that you choose to import into the app</li>
+    </ul>
+    <p>
+      None of this information is sent to the developer, to Fly Ready's own servers
+      (Fly Ready has none), or to any third party. Fly Ready has no backend and does not
+      sync data between devices or accounts.
+    </p>
+    <p>
+      Fly Ready does not collect and does not ask you for airline account credentials,
+      passwords, or payment information.
+    </p>
+  </section>
+
+  <section id="permissions">
+    <h2>Permissions Fly Ready uses</h2>
+    <ul>
+      <li>
+        <strong>Notifications (POST_NOTIFICATIONS)</strong> — used only to deliver local
+        check-in and travel reminders that you configure inside the app. These notifications
+        are scheduled and delivered entirely on your device; no data leaves your device to
+        enable this feature. If notifications are disabled, reminders will not be shown, but
+        the rest of the app continues to work.
+      </li>
+      <li>
+        <strong>File access for imported documents</strong> — when you choose to import a
+        boarding pass or travel document, Fly Ready copies the selected file into its own
+        app-private storage using Android's standard file-sharing mechanism (a
+        <code>FileProvider</code>). Fly Ready does not browse, scan, or access any files on
+        your device other than the one you explicitly select.
+      </li>
+    </ul>
+    <p>
+      Fly Ready does not request location, contacts, camera, microphone, SMS, or call-log
+      permissions.
+    </p>
+  </section>
+
+  <section id="storage-and-deletion">
+    <h2>Data storage, backup, and deletion</h2>
+    <ul>
+      <li>All app data (trips, reminders, checklist progress, and imported documents) is stored locally in app-private storage on your device.</li>
+      <li>Android system backup is disabled for Fly Ready, and backup rules explicitly exclude Fly Ready's local database, shared preferences, and internal files. Your Fly Ready data is not included in Android device backups.</li>
+      <li>You can permanently delete all local Fly Ready data at any time from <strong>Settings &rarr; Local data &rarr; Delete all local data</strong>. This action cannot be undone.</li>
+      <li>Uninstalling the app removes its app-private data according to standard Android platform behavior.</li>
+    </ul>
+  </section>
+
+  <section id="third-party">
+    <h2>Third-party apps and websites</h2>
+    <p>
+      Fly Ready can open the official Ryanair or Wizz Air app or website so you can complete
+      check-in or other airline actions directly with the airline. Fly Ready does not perform
+      automatic check-in, does not scrape airline websites, and does not access or store your
+      airline account credentials.
+    </p>
+    <p>
+      Once you leave Fly Ready to use an airline's app or website, your interaction with that
+      app or website is governed by the airline's own privacy policy and terms of service,
+      which Fly Ready does not control and is not responsible for.
+    </p>
+    <p>
+      Fly Ready is not affiliated with Ryanair, Wizz Air, or any airline. Airline rules,
+      check-in windows, and baggage policies can change at any time. Always confirm check-in,
+      baggage, and document requirements directly with the airline through its official app,
+      website, or airport staff.
+    </p>
+  </section>
+
+  <section id="children">
+    <h2>Children's privacy</h2>
+    <p>
+      Fly Ready is not directed at children and is not intended for use by children. Fly Ready
+      does not knowingly collect personal information from anyone, including children. If you
+      believe a child has provided personal information through this app, contact us using the
+      details below so we can assist; because Fly Ready stores data only on-device and has no
+      backend, the developer typically has no way to access or view that data directly.
+    </p>
+  </section>
+
+  <section id="your-rights">
+    <h2>Your rights and choices</h2>
+    <p>
+      Because Fly Ready does not collect, transmit, or store your personal data on any server,
+      there is no remote copy of your data for the developer to access, correct, export, or
+      delete on your behalf. All Fly Ready data remains under your direct control on your own
+      device:
+    </p>
+    <ul>
+      <li>You can view, edit, or delete individual trips and documents at any time within the app.</li>
+      <li>You can delete all local Fly Ready data at once from Settings.</li>
+      <li>You can uninstall the app at any time to remove its app-private data.</li>
+    </ul>
+    <p>
+      If you have questions about how Fly Ready handles data, or requests related to
+      applicable privacy laws (such as the EU General Data Protection Regulation or other
+      regional privacy laws), contact the developer using the email address below.
+    </p>
+  </section>
+
+  <section id="security">
+    <h2>Security</h2>
+    <p>
+      Fly Ready stores your data using standard Android app-private storage, which is
+      sandboxed by the operating system and not accessible to other apps. Because Fly Ready
+      has no backend and does not transmit your data over the network, there is no server-side
+      transmission or storage to secure. As with any device, the overall security of locally
+      stored data also depends on your device's own security settings (such as screen lock and
+      OS updates).
+    </p>
+  </section>
+
+  <section id="changes">
+    <h2>Changes to this policy</h2>
+    <p>
+      If this privacy policy changes, the "Last updated" date at the top of this page will be
+      revised to reflect the change. Material changes will be reflected in the app's release
+      notes where practical. Continued use of Fly Ready after a change to this policy means you
+      accept the updated policy.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+      <p>
+        Questions, concerns, or requests regarding this privacy policy or Fly Ready's data
+        practices can be sent to:
+      </p>
+      <p>
+        Yurii Bohdan<br>
+        <span class="contact-email">yuriy.etherlord+zenvelyra@gmail.com</span>
+      </p>
+    </div>
+    <p><a class="back-to-top" href="#top">&uarr; Back to top</a></p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="card">
+    <p>Fly Ready &middot; Privacy Policy</p>
+    <p>Fly Ready is not affiliated with Ryanair, Wizz Air, or any airline.</p>
+  </div>
+</footer>
+
+</body>
+</html>
