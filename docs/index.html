@@ -317,11 +317,11 @@
         the rest of the app continues to work.
       </li>
       <li>
-        <strong>File access for imported documents</strong> — when you choose to import a
-        boarding pass or travel document, Fly Ready copies the selected file into its own
-        app-private storage using Android's standard file-sharing mechanism (a
-        <code>FileProvider</code>). Fly Ready does not browse, scan, or access any files on
-        your device other than the one you explicitly select.
+        <strong>File access for imported documents</strong> — you choose to import a boarding
+        pass or travel document, Fly Ready lets you select a file using Android's system file
+        picker and copies only the selected file into app-private storage. When you explicitly
+        choose to open a stored document in another app, Android may grant that selected app
+        temporary access to the document.
       </li>
     </ul>
     <p>
@@ -396,7 +396,8 @@
     <h2>Security</h2>
     <p>
       Fly Ready stores your data using standard Android app-private storage, which is
-      sandboxed by the operating system and not accessible to other apps. Because Fly Ready
+      sandboxed by the operating system and not ordinarily accessible to other apps, except when
+      you explicitly choose to open a stored document in another app. Because Fly Ready
       has no backend and does not transmit your data over the network, there is no server-side
       transmission or storage to secure. As with any device, the overall security of locally
       stored data also depends on your device's own security settings (such as screen lock and
