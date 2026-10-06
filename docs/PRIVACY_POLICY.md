@@ -18,6 +18,7 @@ Fly Ready is a local-first Android MVP for low-cost airline travel preparation.
 * No analytics SDK is used.
 * No airline credentials are collected.
 * Trips and imported documents are stored locally on the device.
+* Smart Ticket Import processes PDF tickets or itineraries on-device only; the PDF and extracted text are not uploaded. Extracted flight details are saved locally only after you review and save the trip; the source PDF is not automatically stored as a travel document.
 * Booking references are stored locally only.
 * Notification permission is used for local reminders.
 * System backup is disabled and backup rules exclude stored travel data.
@@ -28,4 +29,4 @@ Fly Ready is a local-first Android MVP for low-cost airline travel preparation.
 
 Fly Ready is not affiliated with Ryanair, Wizz Air, or any airline. Airline rules can change. Users should always confirm check-in, baggage, and document requirements in the official airline flow.
 
-Last updated: 12 August 2026
+Last updated: 6 October 2026
